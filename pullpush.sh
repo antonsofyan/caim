@@ -18,4 +18,4 @@ echo 'Going to commit with message: '\"$*\"
 read -p " Press Ctrl+C to exit, press any enter key to really commit..
 "
 
-git commit -m "$*" && git pull --no-edit && git push origin main
+git commit -m "$*" && git pull --no-edit && git push origin dev
